@@ -1,3 +1,10 @@
+# Table of Contents
+
+[Lab 1A](lab-1a.md)
+
+
+
+
 # Reading-Notes.
 
 -Reading Notes Repo
