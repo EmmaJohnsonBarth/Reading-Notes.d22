@@ -6,7 +6,7 @@
 
 ## The Growth Mindset 💪
 
-The growth mindset is a way of thinking that prioritizes thoughts of **learning** and __growing__ rather rather than the current state of being.
+The growth mindset is a way of thinking that prioritizes thoughts of **learning** and *growing* rather rather than the current state of being.
 
 
 ### Reminders on the Growth Mindset
