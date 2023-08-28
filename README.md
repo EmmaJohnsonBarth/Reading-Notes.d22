@@ -1,6 +1,6 @@
 # Table of Contents
 
-[Lab 1A](lab-1a.md)
+[Lab 1A](Lab-a1.md)
 
 
 
