@@ -1,13 +1,10 @@
 # Table of Contents
 
 [Lab 1A](Lab-a1.md)
+
 [Lab 1B](Lab-b1.md)
+
 [Lab 2A](Lab-a2.md)
-
-
-
-
-
 
 ## Reading-Notes.
 
