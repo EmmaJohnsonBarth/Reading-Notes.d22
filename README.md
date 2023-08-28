@@ -4,7 +4,7 @@
 
 [Lab 1B](Lab-b1.md)
 
-[Reading 1](Read:01.md)
+[Reading 1](Read01.md)
 
 [Lab 2A](Lab-a2.md)
 
