@@ -1,17 +1,21 @@
 # Table of Contents
 
 [Lab 1A](Lab-a1.md)
+[Lab 1B](Lab-b1.md)
+[Lab 2A](Lab-a2.md)
 
 
 
 
-# Reading-Notes.
+
+
+## Reading-Notes.
 
 -Reading Notes Repo
 
 [Reading Source](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
 
-## The Growth Mindset 💪
+### The Growth Mindset 💪
 
 The growth mindset is a way of thinking that prioritizes thoughts of **learning** and *growing* rather rather than the current state of being.
 
