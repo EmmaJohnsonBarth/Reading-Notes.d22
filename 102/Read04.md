@@ -8,14 +8,11 @@ HTML stands for HyperText Markup Language. It is used to structure content for a
 
 The three main parts of an HTML element are:
 
--The opening tag. 
-    -For example, to start a paragraph, a <p> is insterted
+-The opening tag
 
--The closing tag.
-    -For example, to end a paragraph, a </p> is inserted
+-The closing tag
 
 -The content
-    -For example, the paragraph itself
 
 #### Q3) What is it called when you give an element extra information?
 
@@ -23,4 +20,4 @@ When an element is given extra information, that is called an attribute. They mi
 
 #### Q4) What is a semantic element?
 
-
+A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: "div" and "span" - Tells nothing about its content. Examples of semantic elements: "form" , "table" , and "article" - Clearly defines its content.
