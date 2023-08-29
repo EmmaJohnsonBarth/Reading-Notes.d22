@@ -1,6 +1,18 @@
+# Introducntion
+
+Hello and welcome to my site. Here, you'll find a summary of all the assigned readings for Code 102 offered through Delta V Code School.
+
+
+# About
+
+My name is Emma Johnson-Barth. I am an aspiriring software developer from North Liberty, IA.
+
+
 # Table of Contents
 
 ## Reading Notes - Code 102
+
+[Lab 01b](102/Lab01b.md)
 
 [Reading 1](102/Read01.md)
 
@@ -49,24 +61,4 @@
 [Reading 14](201/201Read14.md)
 
 [Reading 15](201/201Read15.md)
-
-
-
-## Growth Mindset
-
-[Reading Source](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
-
-### The Growth Mindset 💪
-
-The growth mindset is a way of thinking that prioritizes thoughts of **learning** and *growing* rather rather than the current state of being.
-
-
-### Reminders on the Growth Mindset
-
-1.) Everyone call fall into the Fixed Mindset at any time. You must continually choose to be in the Growth Mindset.
-
-2.) Effort in pursuit of goals is worthwhile, even when it feels slow.
-
-3.) Other successful individuals are inspirational, not confrontational
-
 
