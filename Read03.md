@@ -1,37 +1,39 @@
-What is Version Control?
-Version Control is a system that allows you to revisit various versions of a file or set of files by recording changes. 
+### All about Git and Version Control
 
-What is cloning in Git?
-By cloning the file, you have copied all versions of all files for a project. 
+#### Q1) What is Version Contol?
 
-What is the command to track and stage files?
-git add <filename>
-or
-git add . / git add *
-(for all files)
+**Version Control** is a system that allows you to revisit various versions of a file or set of files by recording changes. 
 
-What is the command to take a snapshot of your changed files?
-get commit
+#### Q2) What is Git?
 
-commit the changes and record what you did within the commit message:
+**Git** is a **DVCS** - a Digital Version Control System
 
-$ git commit -m “made change x,y,z”
- to the HEAD.
+#### Q3) What is cloning in Git?
 
-Committing All Changes
-$ git commit -a
-*This command commits a snapshot of all modifications to tracked files in the working directory.
+In Git, **cloning** is copying all versions of a file for a project. 
 
+#### Q4) What is the command to track and stage files?
 
-What is the command to send your changed files to Github?
-get push
+In the terminal, the command to track and stage files is 
 
-Pushing Changes
-Next, you would push changes to a remote repository. We will discuss remote repositories in more depth in the next section. For now, we will look at a general overview of pushing changes to remotes.
+> git add <filename>
 
-Example:
+#### Q5) What is the command to take a snapshot of your changed files?
 
-$ git push origin master
-*This command pushes changes from the local “master” branch to the remote repository named “origin”.
+> git commit
 
-*For cloned repositories, Git will automatically give the name “origin” to the server from which you cloned and the name “master” to your local repository. However, these names can be changed by the user.
+To commit the changes *and* record what you did within the commit message:
+
+> git commit -m “change message here”
+
+#### Q6) What is the command to send your changed files to Github?
+
+> git push
+
+This pushes (sends) changes to a remote repository. 
+
+> git push origin master
+> 
+This command pushes changes from the local “master” branch to the remote repository named “origin”.
+
+*For cloned repositories, Git will automatically give the name “origin” to the server from which you cloned and the name “master” to your local repository. However, these names can be changed by the user.*
