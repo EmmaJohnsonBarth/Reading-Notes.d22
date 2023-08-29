@@ -8,6 +8,8 @@
 
 [Lab 2A](Lab-a2.md)
 
+[Reading 3](Read03.md)
+
 ## Reading-Notes.
 
 -Reading Notes Repo
