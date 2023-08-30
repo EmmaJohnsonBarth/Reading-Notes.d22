@@ -23,12 +23,19 @@ Inline styles are defined within the **style** attribute of the relevant element
 External is typically best practice, as it is easiest to read and debug. If the CSS, HTML, and JS are all in one file, it can be difficult to determine the source of the errors.
 
 
-#### Q3) Write an example of a CSS rule that would give all <p> elements red text.
+#### Q3) Write an example of a CSS rule that would give all **p** elements red text.
 
-There are 2 CSS rules that would give all <p> elements red text: class or id. 
+There are 2 CSS rules that would give all **p** elements red text: class or id. There can be as many classes per CSS file as you want, but there can only be one id per file.
 
-.class
+A class would looks like:
 
-#id
+.p { 
 
-There can be as many classes per CSS file as you want, but there can only be one id per file.
+color: red;}
+
+An id would look like:
+
+#p {
+    
+color: red;}
+
