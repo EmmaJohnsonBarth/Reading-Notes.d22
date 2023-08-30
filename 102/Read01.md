@@ -1,10 +1,10 @@
-# All About Markdown
+### All About Markdown
 
-## Q1.) What is Markdown?
+#### Q1.) What is Markdown?
 
 Markdown is a markup language, used to format text for various web sites.
 
-### Q2.) Why do we use Markdown?
+#### Q2.) Why do we use Markdown?
 
 Markdown is useful because it is widely applicable to a wide variety of functions. It is also portable, and can be opened by almost any application.
 
