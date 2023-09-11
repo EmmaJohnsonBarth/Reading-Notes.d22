@@ -1,0 +1,92 @@
+* {
+    background-color: #3e4437;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c4ccba;
+    color: #273013;
+    height: 50px;
+}
+
+nav ul {
+    padding: auto;
+    display: inline;
+}
+
+li {
+    display: inline;
+    background-color: #cbccbc;
+}
+
+a:link {
+    color: rgb(100, 110, 161);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(49, 51, 65);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(58, 56, 168);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 26, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(52, 66, 66);
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+    padding-block: 10px;
+}
+
+h2 {
+    color: aliceblue;
+    margin: 50px;
+    padding: 25px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+    background-color: rgb(44, 39, 34);
+    margin: 50px;
+}
+/*id and class
+id has hashtag
+class needs a period
+id should be used only once*/
+
+/* #anotherStyle {
+    background-color: orange;
+    font-size: 53px;
+    color: azure;
+}
+
+.more-styles {
+    background-color: rgb(80, 0, 34);
+} */
+
