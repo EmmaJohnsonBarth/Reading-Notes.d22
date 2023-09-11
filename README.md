@@ -31,7 +31,9 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Prompt Engineering](201/prompt-engineering.md)
 
-- [ ] [Reading 1](201/201Read01.md)
+- [x] [Reading 1](201/201Read01.md)
+
+- [x] [Class 1 Lab](201/Class1Lab/index.html)
 
 - [ ] [Reading 2](201/201Read02.md)
 
