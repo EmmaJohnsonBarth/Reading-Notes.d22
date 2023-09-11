@@ -66,7 +66,7 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 ### Code 301 - Intermediate Software Development
 
-**to be added at a later date**
+*to be added at a later date*
 
 ### Code 401 - Advanced Software Development
 
