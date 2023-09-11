@@ -11,7 +11,7 @@ console.log("quest: ", questQ);
 let favColorQ = prompt("What is your favorite color?");
 console.log("color: ", favColorQ)
 
-let birdQ = prompt("African or European swallow?");\
+let birdQ = prompt("African or European swallow?");
 console.log("bird: ", birdQ)
 
 let answers = alert(`So, you are ${nameQ}, on a quest for ${questQ}, your favorite color is ${favColorQ}, and you prefer the ${birdQ} swallow, correct?`)
