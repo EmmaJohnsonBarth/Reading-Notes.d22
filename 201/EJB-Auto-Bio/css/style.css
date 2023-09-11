@@ -11,17 +11,17 @@ body {
 }
 
 header {
-    background-color: #c4ccba;
     color: #273013;
     height: 50px;
 }
 
 nav ul {
-    padding: auto;
-    display: inline;
+    margin: 15px;
+    font-size: 18px;
 }
 
 li {
+    padding: 10px;
     display: inline;
     background-color: #cbccbc;
 }
@@ -61,20 +61,24 @@ strong {
 h1 {
     font-size: 24px;
     padding-block: 10px;
+    background-color: #cbccbc;
 }
 
 h2 {
     color: aliceblue;
-    margin: 50px;
-    padding: 25px;
+    margin: 20px;
+    padding: 2px;
     font-size: 18px;
+    background-color: #526141;
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(44, 39, 34);
-    margin: 50px;
+    margin: 15px;
+    padding: 15px;
 }
+
 /*id and class
 id has hashtag
 class needs a period
@@ -89,4 +93,3 @@ id should be used only once*/
 .more-styles {
     background-color: rgb(80, 0, 34);
 } */
-
