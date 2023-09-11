@@ -4,7 +4,6 @@
 
 Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an aspiriring software developer from North Liberty, IA. Here, you'll find a summary of all the assigned readings offered through Delta V Code School. :nerd_face:
 
-
 ## Table of Contents
 
 ### Code 102 - Intro to Software Development
@@ -36,6 +35,8 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 - [x] [Class 1 Lab](201/Class1Lab/index.html)
 
 - [x] [Reading 2](201/201Read02.md)
+
+- [x] [Class 2 Lab (EJB AutoBio)](201/EJB-AutoBio/index.html)
 
 - [ ] [Reading 3](201/201Read03.md)
 
