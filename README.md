@@ -35,7 +35,7 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Class 1 Lab](201/Class1Lab/index.html)
 
-- [ ] [Reading 2](201/201Read02.md)
+- [x] [Reading 2](201/201Read02.md)
 
 - [ ] [Reading 3](201/201Read03.md)
 
