@@ -14,9 +14,11 @@ header {
     text-align: center;
 }
 
-nav ul a {
+#navbar {
+    list-style-type: none;
     margin: 15px;
     font-size: 18px;
+    display: inline;
 }
 
 ul li {
