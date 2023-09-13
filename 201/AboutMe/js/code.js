@@ -96,25 +96,30 @@ function questionSix() {
 };
 
 let attemptsQ7 = 0
-let arrOfGuesses = [];
+let arrOfAnswers = ['alvin', 'daisy', 'josie'];
 
 function questionSeven() {
     if (attemptsQ7 > 6) {
-        alert('Too many attempts! The answer was Daisy');
+        alert('Too many attempts! The answers were Daisy, Alvin, and Josie.);
         attemptsQ7 = 0;
         return;
     }
-    let answer7 = prompt('What is my cat\'s name? Hint: It\s a flower!')
-    arrOfGuesses.push(answer7);
-    if (answer7.toLowerCase() == 'Daisy') {
+
+    let answer7 = prompt('What is the name of one of my pets? Hint: One is a flower, one is a cartoon chipmunk, and one is a cartoon singer!');
+    let answer7LC = answer7.toLowerCase();
+
+    if (arrOfAnswers.includes(answer7LC)) {
         alert('That\'s correct! Good job, ' + userName + '!');
+        attemptsQ7 = 0;
+        return;
     } else {
-        alert('Guess again!');
+        attemptsQ7++;
+        alert('Guess again! You\'ve taken ' + attemptsQ7 + 'out of 6 attempts!');
         questionSeven();
     }
 }
 
-// As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
+
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
 // Give the user 6 attempts to guess the correct answer.
 // The guesses will end once the user guesses a correct answer or they run out of attempts.
