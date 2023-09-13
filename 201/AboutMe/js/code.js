@@ -73,13 +73,14 @@ let attempts = 0;
 function questionSix() {
     if (attempts >= 4) {
         alert('Too many attempts!');
+        attempts = 0;
         return;
     }
 
     let answer6 = prompt('How many pets do I own?');
     console.log(answer6)
 
-    if (answer6 === 3) {
+    if (answer6 == 3) {
         alert('That\'s correct! Good job, ' + userName + '!')
     } else if (answer6 > 3) {
         alert('Too high!');
