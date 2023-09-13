@@ -36,7 +36,7 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Reading 2](201/201Read02.md)
 
-- [x] [Class 2 Lab (EJB AutoBio)](201/EJB-Auto-Bio/index.html)
+- [x] [Class 2 Lab (About Me)](201/AboutMe/index.html)
 
 - [ ] [Reading 3](201/201Read03.md)
 
