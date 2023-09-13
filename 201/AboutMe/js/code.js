@@ -67,21 +67,21 @@ function questionFive() {
     }
 }
 
-let attempts = 0;
+let attemptsQ6 = 0;
 
 
 function questionSix() {
-    if (attempts >= 4) {
-        alert('Too many attempts!');
-        attempts = 0;
+    if (attemptsQ6 > 4) {
+        alert('Too many attempts! The answer was 3.');
+        attemptsQ6 = 0;
         return;
     }
 
     let answer6 = prompt('How many pets do I own?');
-    console.log(answer6)
 
     if (answer6 == 3) {
-        alert('That\'s correct! Good job, ' + userName + '!')
+        alert('Correct!');
+        questionSeven();
     } else if (answer6 > 3) {
         alert('Too high!');
         attempts++;
@@ -95,9 +95,28 @@ function questionSix() {
     };
 };
 
+let attemptsQ7 = 0
+let arrOfGuesses = [];
 
+function questionSeven() {
+    if (attemptsQ7 > 6) {
+        alert('Too many attempts! The answer was Daisy');
+        attemptsQ7 = 0;
+        return;
+    }
+    let answer7 = prompt('What is my cat\'s name? Hint: It\s a flower!')
+    arrOfGuesses.push(answer7);
+    if (answer7.toLowerCase() == 'Daisy') {
+        alert('That\'s correct! Good job, ' + userName + '!');
+    } else {
+        alert('Guess again!');
+        questionSeven();
+    }
+}
 
-// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-// Indicates through an alert if the guess is “too high” or “too low”.
-// It should give the user exactly four opportunities to get the correct answer.
-// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+// As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
+// Add a 7th question that has multiple possible correct answers that are stored in an array.
+// Give the user 6 attempts to guess the correct answer.
+// The guesses will end once the user guesses a correct answer or they run out of attempts.
+// Display all the possible correct answers to the user.
+// Consider using a loop of some sort for this question.
