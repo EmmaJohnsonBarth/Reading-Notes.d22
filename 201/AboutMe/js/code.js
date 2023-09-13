@@ -1,135 +1,102 @@
 
 'use strict';
 
-// let userName = prompt('What is your name?', 'Bob');
+let userName = prompt('What is your name?', 'Bob');
 
-// alert("Welcome to the site, " + userName);
+alert("Welcome to the site, " + userName);
 
-// document.write('Hello, ' + userName + '!');
+document.write('Hello, ' + userName + '!');
 
-// function questionOne() {
-//     let answer = prompt('Was I born in the state of Iowa? y/n');
-//     if (answer.toLowerCase() === 'n') {
-//         // console.log("Correct!")
-//         alert("Correct!");
-//         questionTwo();
-//     } else {
-//         // console.log("Try again!")
-//         alert('Try again!')
-//     }
-// }
-
-// function questionTwo() {
-//     let answer = prompt('Do I play the piano? y/n');
-//     if (answer.toLowerCase() === 'y') {
-//         // console.log("Correct!")
-//         alert("Correct!");
-//         questionThree();
-//     } else {
-//         // console.log("Try again!")
-//         alert('Try again!')
-//     }
-// }
-
-// function questionThree() {
-//     let answer = prompt('Do I own pets? y/n');
-//     if (answer.toLowerCase() === 'y') {
-//         // console.log("Correct!")
-//         alert("Correct!");
-//         questionFour();
-//     } else {
-//         // console.log("Try again!")
-//         alert('Try again!')
-//     }
-// }
-
-// function questionFour() {
-//     let answer = prompt('Did I work for Iowa State University? y/n');
-//     if (answer.toLowerCase() === 'n') {
-//         // console.log("Correct!")
-//         questionFive()
-//     } else {
-//         // console.log("Try again!")
-//         alert('Try again!')
-//     }
-// }
-
-// function questionFive() {
-//     let answer = prompt('Did I attend Cornell College? y/n');
-//     if (answer.toLowerCase() === 'y') {
-//         // console.log("Good job!)
-//         alert('Good job, ' + userName + '!')
-//     } else {
-//         // console.log("Try again!")
-//         alert('Try again!')
-//     }
-// }
-
-
-let userPoints = 0;
-
-console.log ('user points: ', userPoints);
-
-alert('hello and welcome to my guessing game');
-
-//an empty string is falsy
-
-let userName;
-
-while (!userName) {
-    userName = prompt('Welcome! What is your name?');
-    console.log('user name: ', userName);
+function questionOne() {
+    let answer = prompt('Was I born in the state of Iowa? y/n');
+    if (answer.toLowerCase() === 'n') {
+        // console.log("Correct!")
+        alert("Correct!");
+        questionTwo();
+    } else {
+        // console.log("Try again!")
+        alert('Try again!')
+    }
 }
 
-//lowercase input and remove extra spaces
-
-let normalizedInputName = userName.toLowerCase().trim();
-
-console.log('normalized name: ', normalizedInputName);
-
-// if (normalizedInputName !== 'bob') {
-//     console.log('bob?', normalizedInputName;)
-// }
-
-alert('Hello, ' + userName + ' let\'s play a game.');
-
-let answer = prompt('Is popcorn my favorite food?').trim().toLowerCase();
-
-console.log('answer: ', answer)
-
-if (answer === 'no' || answer === 'n') {
-    alert ('You\'re correct!')
-    userPoints++;
-} else if (answer === 'yes' || answer === 'y') {
-    alert ('You\'re incorrect. I like pizza!')
-} else {
-    alert ('Please select yes or no');
-    answer = prompt('Is popcorn my favorite food?')
+function questionTwo() {
+    let answer = prompt('Do I play the piano? y/n');
+    if (answer.toLowerCase() === 'y') {
+        // console.log("Correct!")
+        alert("Correct!");
+        questionThree();
+    } else {
+        // console.log("Try again!")
+        alert('Try again!')
+    }
 }
 
-//looping
-
-let count = 50;
-
-while (count >= 20) {
-    console.log('50 - 20', count);
-    count -= 2;
+function questionThree() {
+    let answer = prompt('Do I own pets? y/n');
+    if (answer.toLowerCase() === 'y') {
+        // console.log("Correct!")
+        alert("Correct!");
+        questionFour();
+    } else {
+        // console.log("Try again!")
+        alert('Try again!')
+    }
 }
 
-//do while loop
-
-let newUser;
-
-do {
-    newUser = prompt('A new user name please?');
-    console.log('A new user name: ' , newUser)
-} while (!newUser);
-
-console.log('we now have a new user', newUser)
-
-const foodsILike = ['chips', 'pizza', 'cheese', 'lemon bars'];
-
-for (let i = 0; i < foodsILike.length; i++) {
-    console.log('foodsILike: ' foodsILike[i])
+function questionFour() {
+    let answer = prompt('Did I work for Iowa State University? y/n');
+    if (answer.toLowerCase() === 'n') {
+        // console.log("Correct!")
+        alert('Correct!');
+        questionFive();
+    } else {
+        // console.log("Try again!")
+        alert('Try again!')
+    }
 }
 
+function questionFive() {
+    let answer = prompt('Did I attend Cornell College? y/n');
+    if (answer.toLowerCase() === 'y') {
+        // console.log("Good job!)
+        alert('Correct!')
+        questionSix();
+    } else {
+        // console.log("Try again!")
+        alert('Try again!')
+    }
+}
+
+let attempts = 0;
+
+
+function questionSix() {
+    if (attempts >= 4) {
+        alert('Too many attempts!');
+        return;
+    }
+
+    let answer6 = prompt('How many pets do I own?');
+    console.log(answer6)
+
+    if (answer6 === 3) {
+        alert('That\'s correct! Good job, ' + userName + '!')
+    } else if (answer6 > 3) {
+        alert('Too high!');
+        attempts++;
+        questionSix();
+    } else if (answer6 < 3) {
+        attempts++
+        alert('Too low!');
+        questionSix();
+    } else {
+        alert('what')
+    };
+};
+
+
+
+// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+// Indicates through an alert if the guess is “too high” or “too low”.
+// It should give the user exactly four opportunities to get the correct answer.
+// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.

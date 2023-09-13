@@ -67,3 +67,70 @@ console.log ('user points: ' userPoints);
 
 alert('hello and welcome to my guessing game');
 
+
+let userPoints = 0;
+
+console.log ('user points: ', userPoints);
+
+alert('hello and welcome to my guessing game');
+
+//an empty string is falsy
+
+let userName;
+
+while (!userName) {
+    userName = prompt('Welcome! What is your name?');
+    console.log('user name: ', userName);
+}
+
+//lowercase input and remove extra spaces
+
+let normalizedInputName = userName.toLowerCase().trim();
+
+console.log('normalized name: ', normalizedInputName);
+
+// if (normalizedInputName !== 'bob') {
+//     console.log('bob?', normalizedInputName;)
+// }
+
+alert('Hello, ' + userName + ' let\'s play a game.');
+
+let answer = prompt('Is popcorn my favorite food?').trim().toLowerCase();
+
+console.log('answer: ', answer)
+
+if (answer === 'no' || answer === 'n') {
+    alert ('You\'re correct!')
+    userPoints++;
+} else if (answer === 'yes' || answer === 'y') {
+    alert ('You\'re incorrect. I like pizza!')
+} else {
+    alert ('Please select yes or no');
+    answer = prompt('Is popcorn my favorite food?')
+}
+
+//looping
+
+let count = 50;
+
+while (count >= 20) {
+    console.log('50 - 20', count);
+    count -= 2;
+}
+
+//do while loop
+
+let newUser;
+
+do {
+    newUser = prompt('A new user name please?');
+    console.log('A new user name: ' , newUser)
+} while (!newUser);
+
+console.log('we now have a new user', newUser)
+
+const foodsILike = ['chips', 'pizza', 'cheese', 'lemon bars'];
+
+for (let i = 0; i < foodsILike.length; i++) {
+    console.log('foodsILike: ' foodsILike[i])
+
