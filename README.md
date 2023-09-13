@@ -30,39 +30,39 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Prompt Engineering](201/prompt-engineering.md)
 
-- [x] [Reading 1](201/201Read01.md)
+- [x] [Reading 1](201/Readings/201Read01.md)
 
 - [x] [Class 1 Lab](201/Class1Lab/index.html)
 
-- [x] [Reading 2](201/201Read02.md)
+- [x] [Reading 2](201/Readings/201Read02.md)
 
 - [x] [Class 2 Lab (About Me)](201/AboutMe/index.html)
 
-- [x] [Reading 3](201/201Read03.md)
+- [x] [Reading 3](201/Readings/201Read03.md)
 
-- [ ] [Reading 4](201/201Read04.md)
+- [ ] [Reading 4](201/Readings/201Read04.md)
 
-- [ ] [Reading 5](201/201Read05.md)
+- [ ] [Reading 5](201/Readings/201Read05.md)
 
-- [ ] [Reading 6](201/201Read06.md)
+- [ ] [Reading 6](201/Readings/201Read06.md)
 
-- [ ] [Reading 7](201/201Read07.md)
+- [ ] [Reading 7](201/Readings/201Read07.md)
 
-- [ ] [Reading 8](201/201Read08.md)
+- [ ] [Reading 8](201/Readings/201Read08.md)
 
-- [ ] [Reading 9](201/201Read09.md)
+- [ ] [Reading 9](201/Readings/201Read09.md)
 
-- [ ] [Reading 10](201/201Read10.md)
+- [ ] [Reading 10](201/Readings/201Read10.md)
 
-- [ ] [Reading 11](201/201Read11.md)
+- [ ] [Reading 11](201/Readings/201Read11.md)
 
-- [ ] [Reading 12](201/201Read12.md)
+- [ ] [Reading 12](201/Readings/201Read12.md)
 
-- [ ] [Reading 13](201/201Read13.md)
+- [ ] [Reading 13](201/Readings/201Read13.md)
 
-- [ ] [Reading 14](201/201Read14.md)
+- [ ] [Reading 14](201/Readings/201Read14.md)
 
-- [ ] [Reading 15](201/201Read15.md)
+- [ ] [Reading 15](201/Readings/201Read15.md)
 
 ### Code 301 - Intermediate Software Development
 
