@@ -1,7 +1,7 @@
 * {
     /* background-color: #3e4437; */
     font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
+    color: #aac1c5;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    color: #273013;
+    color: #082334;
     height: 50px;
 }
 
@@ -25,7 +25,7 @@ nav ul {
 li {
     padding: 10px;
     display: inline;
-    background-color: #cbccbc;
+    background-color:#d5dad3;
 }
 
 a:link {
@@ -63,7 +63,7 @@ strong {
 h1 {
     font-size: 24px;
     padding-block: 10px;
-    background-color: #474a10;
+    background-color:#1e3212;
 }
 
 h2 {
@@ -71,11 +71,11 @@ h2 {
     margin: 20px;
     padding: 2px;
     font-size: 18px;
-    background-color: #526141;
+    background-color: #3a5a63;
 }
 
 button {
-    color: #25301a;
+    color: #082334;
     margin: 15px;
     padding: 15px;
     font-size: 18px;

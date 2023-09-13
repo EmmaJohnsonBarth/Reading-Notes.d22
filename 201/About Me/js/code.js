@@ -3,7 +3,11 @@
 
 let userName = prompt('What is your name?', 'Bob');
 
-alert("Welcome to the site, " + userName)
+
+
+alert("Welcome to the site, " + userName);
+
+document.write('Hello, ' + userName + '!');
 
 function questionOne() {
     let answer = prompt('Was I born in the state of Iowa? y/n');
