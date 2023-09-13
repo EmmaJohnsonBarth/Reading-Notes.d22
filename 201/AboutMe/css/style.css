@@ -7,7 +7,6 @@
 
 body {
     background-image: url(https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg);
-    /* background-color: #082334; */
     width: 1200px;
     margin: 0 auto;
 }
@@ -22,10 +21,10 @@ nav ul {
     font-size: 18px;
 }
 
-li {
+ul li {
     padding: 10px;
     display: inline;
-    background-color:#d5dad3;
+    background-color: #d5dad3;
 }
 
 a:link {
@@ -63,22 +62,19 @@ strong {
 h1 {
     font-size: 24px;
     padding-block: 10px;
-    background-color:#1e3212;
+    background-color: #1e3212;
 }
 
 h2 {
     color: aliceblue;
-    margin: 20px;
-    padding: 2px;
+    /* margin-top: 20px; */
+    padding-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 18px;
-    background-color: #3a5a63;
-}
-
-button {
-    color: #082334;
-    margin: 15px;
-    padding: 15px;
-    font-size: 18px;
+    background-color: #233b42;
+    outline-color: #8623dd;
+    outline-width: 5px;
 }
 
 p {
@@ -86,6 +82,21 @@ p {
     background-color: rgb(44, 39, 34);
     margin: 15px;
     padding: 15px;
+}
+
+ol li {
+    list-style-type: lower-alpha;
+    color: #082334;
+    background-color: #d5dad3;
+    display: block;
+    padding: 3px;
+}
+
+button {
+    color: #082334;
+    margin: 15px;
+    padding: 15px;
+    font-size: 18px;
 }
 
 /*id and class
