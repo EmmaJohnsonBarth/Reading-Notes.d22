@@ -6,6 +6,8 @@
 }
 
 body {
+    background-image: url(https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg);
+    background-color: #082334;
     width: 1200px;
     margin: 0 auto;
 }
