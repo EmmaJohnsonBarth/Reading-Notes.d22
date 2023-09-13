@@ -100,7 +100,7 @@ let arrOfAnswers = ['alvin', 'daisy', 'josie'];
 
 function questionSeven() {
     if (attemptsQ7 > 6) {
-        alert('Too many attempts! The answers were Daisy, Alvin, and Josie.);
+        alert('Too many attempts! The answers were Daisy, Alvin, and Josie.');
         attemptsQ7 = 0;
         return;
     }
