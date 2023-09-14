@@ -55,17 +55,72 @@ function questionFour() {
     }
 }
 
+let answer6;
+
 function questionFive() {
     let answer = prompt('Did I attend Cornell College? y/n');
     if (answer.toLowerCase() === 'y') {
         // console.log("Good job!)
-        alert('Correct!')
-        questionSix();
+        alert('Correct!');
+        let answer6 = prompt('How many pets do I own?');
+        return answer6
+        // questionSix();
     } else {
         // console.log("Try again!")
         alert('Try again!')
     }
 }
+
+
+// let answer6 = prompt('How many pets do I own?');
+
+let answer7;
+
+for (let attemptsQ6 = 0; attemptsQ6 <= 6; attemptsQ6++) {
+    if (answer6 == 3) {
+        alert('Correct!');
+        let answer7 = prompt('What is the name of one of my pets? Hint: One is a flower, one is a cartoon chipmunk, and one is a cartoon singer!');
+        return answer7;
+        break;
+    } else if (answer6 > 3) {
+        alert('Too high!');
+        attemptsQ6++;
+        answer6 = prompt('How many pets do I own?');
+    } else if (answer6 < 3) {
+        attemptsQ6++
+        alert('Too low!');
+        answer6 = prompt('How many pets do I own?');
+    } else {
+        alert('what')
+    };
+};
+
+let arrOfAnswers = ['alvin', 'daisy', 'josie'];
+let answer7LC = answer7.toLowerCase();
+
+for (let attemptsQ7 = 0; attemptsQ7 <= 6; attemptsQ7++) {
+
+    if (attemptsQ7 > 6) {
+        alert('Too many attempts! The answers were Daisy, Alvin, and Josie.');
+        attemptsQ7 = 0;
+        break;
+    }
+
+    if (answer7LC === 'alvin' || answer7LC === 'daisy' || answer7LC === 'josie') {
+        alert('Correct!');
+    } else if (answer7 > 3) {
+        alert('Too high!');
+        attemptsQ7++;
+        answer7 = prompt('How many pets do I own?');
+    } else if (answer7 < 3) {
+        attemptsQ7++
+        alert('Too low!');
+        answer7 = prompt('How many pets do I own?');
+    } else {
+        alert('what')
+    };
+};
+
 
 
 // let attemptsQ6 = 0;
@@ -92,25 +147,6 @@ function questionFive() {
 //         alert('what')
 //     };
 // };
-
-let answer6 = prompt('How many pets do I own?');
-
-for (let attemptsQ6 = 0; attemptsQ6 <= 6; attemptsQ6++) {
-    if (answer6 == 3) {
-        alert('Correct!');
-    } else if (answer6 > 3) {
-        alert('Too high!');
-        attemptsQ6++;
-        answer6 = prompt('How many pets do I own?');
-    } else if (answer6 < 3) {
-        attemptsQ6++
-        alert('Too low!');
-        answer6 = prompt('How many pets do I own?');
-    } else {
-        alert('what')
-    };
-};
-
 // let attemptsQ7 = 0
 // let arrOfAnswers = ['alvin', 'daisy', 'josie'];
 
@@ -134,33 +170,3 @@ for (let attemptsQ6 = 0; attemptsQ6 <= 6; attemptsQ6++) {
 //         questionSeven();
 //     }
 // };
-
-
-let arrOfAnswers = ['alvin', 'daisy', 'josie'];
-
-let answer7 = prompt('What is the name of one of my pets? Hint: One is a flower, one is a cartoon chipmunk, and one is a cartoon singer!');
-    let answer7LC = answer7.toLowerCase();
-
-
-for (let attemptsQ7 = 0; attemptsQ7 <= 6; attemptsQ7++) {
-
-    if (attemptsQ7 > 6) {
-        alert('Too many attempts! The answers were Daisy, Alvin, and Josie.');
-        attemptsQ7 = 0;
-        break;
-    }
-
-    if (answer7LC === 'alvin' || answer7LC === 'daisy' || answer7LC === 'josie') {
-        alert('Correct!');
-    } else if (answer7 > 3) {
-        alert('Too high!');
-        attemptsQ7++;
-        answer7 = prompt('How many pets do I own?');
-    } else if (answer7 < 3) {
-        attemptsQ7++
-        alert('Too low!');
-        answer7 = prompt('How many pets do I own?');
-    } else {
-        alert('what')
-    };
-};
