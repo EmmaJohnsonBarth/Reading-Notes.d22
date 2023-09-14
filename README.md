@@ -40,7 +40,7 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Reading 3](201/Readings/201Read03.md)
 
-- [ ] [Reading 4](201/Readings/201Read04.md)
+- [x] [Reading 4](201/Readings/201Read04.md)
 
 - [ ] [Reading 5](201/Readings/201Read05.md)
 
