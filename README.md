@@ -42,15 +42,15 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Reading 4](201/Readings/201Read04.md)
 
-- [ ] [Reading 5](201/Readings/201Read05.md)
+- [x] [Reading 5](201/Readings/201Read05.md)
 
-- [ ] [Reading 6](201/Readings/201Read06.md)
+- [x] [Reading 6](201/Readings/201Read06.md)
 
-- [ ] [Reading 7](201/Readings/201Read07.md)
+- [x] [Reading 7](201/Readings/201Read07.md)
 
-- [ ] [Reading 8](201/Readings/201Read08.md)
+- [x] [Reading 8](201/Readings/201Read08.md)
 
-- [ ] [Reading 9](201/Readings/201Read09.md)
+- [x] [Reading 9](201/Readings/201Read09.md)
 
 - [ ] [Reading 10](201/Readings/201Read10.md)
 
