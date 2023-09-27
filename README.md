@@ -54,11 +54,11 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Reading 10](201/Readings/201Read10.md)
 
-- [ ] [Reading 11](201/Readings/201Read11.md)
+- [x] [Reading 11](201/Readings/201Read11.md)
 
-- [ ] [Reading 12](201/Readings/201Read12.md)
+- [x] [Reading 12](201/Readings/201Read12.md)
 
-- [ ] [Reading 13](201/Readings/201Read13.md)
+- [x] [Reading 13](201/Readings/201Read13.md)
 
 - [ ] [Reading 14](201/Readings/201Read14.md)
 
