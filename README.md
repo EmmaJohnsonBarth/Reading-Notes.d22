@@ -60,6 +60,8 @@ Hello and welcome to my site. :smile: My name is Emma Johnson-Barth. I am an asp
 
 - [x] [Reading 13](201/Readings/201Read13.md)
 
+- [x] [Psychological Safety](201/Readings/201PsychologicalSafety.md)
+
 - [ ] [Reading 14](201/Readings/201Read14.md)
 
 - [ ] [Reading 15](201/Readings/201Read15.md)
